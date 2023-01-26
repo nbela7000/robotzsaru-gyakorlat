@@ -1,0 +1,40 @@
+#mainpage-navbar {
+    height: 4%;
+    width: 100%;
+    padding: 5px;
+    background-color: $darkC1;
+    position:relative;
+
+    -webkit-box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.1);
+    box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.1);
+}
+
+#mainpage-navbar>#user-info {
+    text-align: right;
+    right: 0;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#mainpage-navbar>#page-info {
+    text-align: left;
+    left: 0;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#mainpage-main-content {
+    margin-top: 30px;
+    margin-left: 20px;
+}
