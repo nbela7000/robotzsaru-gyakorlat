@@ -1,0 +1,15 @@
+.input-primary {
+    border: 1px solid $darkC3;
+    border-radius: 4px;
+    background-color: $darkC2 !important;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    transition: 200ms all;
+    &:focus {
+        border-color: $blue-color;
+        -webkit-box-shadow: 0px 0px 0px 4px rgba($blue-color, .4);
+        -moz-box-shadow: 0px 0px 0px 4px rgba($blue-color, .4);
+        box-shadow: 0px 0px 0px 4px rgba($blue-color, .4);
+    }
+}
