@@ -1,0 +1,30 @@
+#login-box {
+    margin: auto;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0);
+    background-color: $darkC1;
+    padding: 0px;
+    text-align: center;
+    margin-top: 200px;
+    width: 20%;
+    @include uncopiable;
+
+    -webkit-box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.7);
+    box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.7);
+}
+
+#login-title {
+    background-color: $darkC3;
+    padding: 10px;
+}
+
+.login-icon {
+    font-size: 11px;
+    margin-right:5px;
+}
+
+#loginInfo, #registerInfo, #newfileInfo, #editfileInfo, #editminuteInfo {
+    color: $red-color;
+    word-wrap: break-word;
+}
