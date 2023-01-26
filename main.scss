@@ -1,0 +1,38 @@
+@import "scss/vars.scss";
+@import "scss/fonts.scss";
+
+@import "scss/mixins/main.scss";
+@import "scss/elements/main.scss";
+
+body {
+    color: $default-font-color;
+    font-size: $default-font-size;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $background-color;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
+
+input, button {
+    color: $default-font-color;
+}
+
+input[type=text], input[type=password] {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0,0,0,0);
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    color: $blue-color;
+    font-weight: 600;
+    text-decoration: none;
+    cursor:pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
