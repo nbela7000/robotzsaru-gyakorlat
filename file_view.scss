@@ -1,0 +1,28 @@
+#fileview_content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fileview_table {
+    width: 100%;
+    background-color: $darkC2;
+    border-collapse: collapse;
+    font-size: $default-font-size !important;
+    -webkit-box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.2);
+    box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.2);
+}
+
+#fileview_table, #fileview_table>tbody>tr>th, #fileview_table>tbody>tr>td {
+    border: 1px solid $darkC3;
+}
+
+#fileview_table>tbody>tr {
+    padding: 5px;
+}
+
+#fileview_table>tbody>tr>td {
+    padding: 5px;
+    text-align: left;
+}
