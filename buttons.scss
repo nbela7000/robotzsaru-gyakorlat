@@ -1,0 +1,119 @@
+.button-danger {
+    color: #f44 !important;
+    background: linear-gradient(#202020, #181818);
+    border: 1px solid #383838 !important;
+    border-radius: 3.5px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    cursor: pointer;
+    text-decoration: none !important;
+    display:inline-block;
+    margin-left: 5px;
+    @include uncopiable;
+    &:hover {
+        color: $whiteC2 !important;
+        border-color: #f44 !important;
+        background: #f44 !important;
+    }
+    &:active {
+        box-shadow: 0 0 0 0.2em rgba(#f44,.3);
+    }
+}
+
+.button-secondary {
+    padding: 5px;
+    font-weight: bold;
+    letter-spacing: .3px;
+    border: 1px solid $darkC3;
+    border-radius: 4px;
+    background-color: $darkC3;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    transition: 200ms all;
+    &:hover {
+        background-color: $darkC1;
+    }
+    &:active {
+        //background-color: $blue-color;
+        border-color: $blue-color;
+        -webkit-box-shadow: 0px 0px 0px 4px rgba($blue-color, .4);
+        -moz-box-shadow: 0px 0px 0px 4px rgba($blue-color, .4);
+        box-shadow: 0px 0px 0px 4px rgba($blue-color, .4);
+    }
+}
+
+.button-primary {
+    background: linear-gradient(#407045, #305530);
+    border: 1px solid #083;
+    border-radius: 3.5px;
+    color: $whiteC2;
+    font-weight: 600;
+    padding-bottom: 6px;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    text-decoration: none !important;
+    display:inline-block;
+    @include uncopiable;
+    margin-left: 5px;
+    &:hover {
+        background: linear-gradient(#508055, #407045) !important;
+    }
+    &:active {
+        box-shadow: 0 0 0 0.2em rgba(3,102,214,.3);
+    }
+}
+.button-norm {
+    background: linear-gradient(#202020, #181818);
+    border: 1px solid #383838 !important;
+    border-radius: 3.5px;
+    color: $blue-color;
+    cursor: pointer;
+    font-weight: 600;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    @include uncopiable;
+    padding-right: 12px;
+    padding-top: 6px;
+    text-decoration: none !important;
+    display:inline-block;
+    margin-left: 5px;
+    &:hover {
+        background: $blue-color !important;
+        border-color: $blue-color !important;
+        color: $whiteC2;
+    }
+    &:active {
+        box-shadow: 0 0 0 0.2em rgba(3,102,214,.3);
+    }
+}
+
+.icon-button-danger {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: $red-color;
+    border-radius: 3px;
+    border: 1px solid $red-color;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.icon-button-confirm {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: $green-color;
+    border-radius: 3px;
+    border: 1px solid $green-color;
+    cursor: pointer;
+    margin-right: 5px;
+}
+Footer
