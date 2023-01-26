@@ -1,0 +1,46 @@
+#startpage-widgets {
+    @include uncopiable;
+}
+
+.startpage-widget {
+    background-color: $darkC1;
+    display: inline-block;
+    min-height: 10%;
+    vertical-align:top;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0);
+    width: 15%;
+    margin-right: 10px;
+    word-wrap: break-word;
+    cursor: pointer;
+    font-size: $default-font-size + 6;
+    -webkit-box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.2);
+    box-shadow: 0px 15px 35px -10px rgba(0,0,0,0.2);
+    transition: 200ms all;
+    &:hover {
+
+    }
+    &:active {
+        border-color: $blue-color;
+        -webkit-box-shadow: 0px 0px 0px 4px rgba($blue-color, .4);
+        -moz-box-shadow: 0px 0px 0px 4px rgba($blue-color, .4);
+        box-shadow: 0px 0px 0px 4px rgba($blue-color, .4);
+    }
+}
+
+.startpage-widget>.icon {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    font-size: $default-font-size + 20;
+    float: right;
+}
+
+.startpage-widget>.description {
+    margin-top: 5px;
+    font-size: $default-font-size - 2;
+    color: $whiteC3;
+    word-wrap: break-word;
+}
